@@ -1,0 +1,8 @@
+[ERROR] 2022/07/11 15:10:37 tx.go:27: failed to execute GetTxByHash: 415 Unsupported Media Type: {"message":"Non-gRPC request matched gRPC route"}
+[ERROR] 2022/07/11 15:12:54 ddc721.go:44: failed to execute Mint: 415 Unsupported Media Type: {"message":"Non-gRPC request matched gRPC route"}
+[ERROR] 2022/07/11 15:13:58 ddc721.go:97: failed to execute FuncApprove: 415 Unsupported Media Type: {"message":"Non-gRPC request matched gRPC route"}
+[ERROR] 2022/07/11 15:15:03 block.go:34: failed to execute GetBlockByNumber: 415 Unsupported Media Type: {"message":"Non-gRPC request matched gRPC route"}
+[ERROR] 2022/07/13 10:20:35 charge.go:62: failed to execute BalanceOf: no contract code at given address
+[ERROR] 2022/07/13 15:20:30 ddc721.go:340: failed to execute DdcURI: execution reverted: DDC721:nonexistent ddc
+[ERROR] 2022/07/13 15:21:20 ddc721.go:294: failed to execute OwnerOf: execution reverted: DDC721:owner query for nonexistent ddc
+[ERROR] 2022/07/13 15:23:37 ddc721.go:69: failed to execute SafeMint: rpc error: code = InvalidArgument desc = execution reverted: Authority: Account does not exist!: invalid request
